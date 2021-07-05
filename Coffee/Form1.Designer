@@ -168,13 +168,9 @@ namespace Coffee
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.labelCapuchino);
-            this.Controls.Add(this.labelAmericano);
-            this.Controls.Add(this.labelEspresso);
-            this.Controls.Add(this.labelLatte);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
+            this.Name = "CoffeeRes";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -196,9 +192,6 @@ namespace Coffee
         private System.Windows.Forms.Label label7;
         private PictureBox pictureBox1;
         private System.Windows.Forms.Label labelAmericano;
-        private System.Windows.Forms.Label labelCapuchino;
-        private System.Windows.Forms.Label labelEspresso;
-        private System.Windows.Forms.Label labelLatte;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem languageToolStripMenuItem;
         private ToolStripMenuItem eNGToolStripMenuItem;
